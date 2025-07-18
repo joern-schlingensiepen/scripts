@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.pdf\shell\Convert2Scan]
+@="Convert2Scan"
+
+[HKEY_CLASSES_ROOT\.pdf\shell\Convert2Scan\command]
+@="cmd.exe /K \"C:\\Anaconda3\\Scripts\\activate.bat pdf && python c:\\tools\\pdf2tiff2pdf\\pdf2tiff2pdf.py %1\""
